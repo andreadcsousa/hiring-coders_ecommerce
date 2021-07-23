@@ -23,6 +23,6 @@ Esse projeto foi desenvolvido com:
 
 # :art: Layout
 
-<img src="./files/home.png" alt="" width="100%">
-<img src="./files/cliente.png" alt="" width="100%">
-<img src="./files/produto.png" alt="" width="100%">
+<img src="./files/home.jpg" alt="" width="100%">
+<img src="./files/cliente.jpg" alt="" width="100%">
+<img src="./files/produto.jpg" alt="" width="100%">
