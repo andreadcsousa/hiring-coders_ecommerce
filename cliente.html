@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/cliente.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <title>E-Commerce</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="img/online.png" alt="" /></a>
+      <nav class="text-box">
+        <button class="btn btn-white btn- animate">
+          <a href="cliente.html">Cadastrar Cliente</a>
+        </button>
+        <button class="btn btn-white btn- animate">
+          <a href="produto.html">Cadastrar Produto</a>
+        </button>
+      </nav>
+    </header>
+
+    <main class="formulario">
+      <section>
+        <img class="imagem" src="img/cliente.svg" alt="" />
+      </section>
+
+      <section class="position">
+        <img src="" alt="" />
+        <h2>cadastre-se</h2>
+
+        <form action="" method="get">
+          <article>
+            <label for="nome">nome e sobrenome</label>
+            <input id="nome" type="text" placeholder="Maria Silva" /><br />
+
+            <label for="email">e-mail</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="maria.silva@gmail.com"
+              required
+            /><br />
+
+            <label for="senha">senha</label>
+            <input
+              id="senha"
+              type="password"
+              placeholder=""
+              required
+              minlength="8"
+              pattern="[0-9a-zA-Z]{8}"
+            /><br />
+
+            <label for="data">data de nascimento</label>
+            <input id="data" type="date" placeholder="Ex. 01/01/1999" /><br />
+
+            <label for="telefone">telefone</label>
+            <input
+              id="telefone"
+              type="tel"
+              placeholder="Ex. (99) 99999-9999"
+              pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}"
+            />
+          </article>
+          <br />
+
+          <label for="">sexo</label><br />
+          feminino
+          <input class="alinhar" type="range" min="0" max="2" /> masculino
+
+          <br /><br /><br />
+
+          <a class="button" href="">Criar seu cadastro</a>
+          <a class="button" href="">Login com Facebook</a>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Desenvolvido por Andrea Sousa
+        <a href="https://github.com/andreadcsousa" target="_blank">
+          <img src="img/github.png" alt="" />
+        </a>
+        2021
+      </p>
+    </footer>
+  </body>
+</html>
