@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/cliente.css" />
+    <link rel="stylesheet" href="css/produto.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <title>E-Commerce</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="img/online.png" alt="" /></a>
+      <nav class="text-box">
+        <button class="btn btn-white btn- animate">
+          <a href="cliente.html">Cadastrar Cliente</a>
+        </button>
+        <button class="btn btn-white btn- animate">
+          <a href="produto.html">Cadastrar Produto</a>
+        </button>
+      </nav>
+    </header>
+
+    <main class="formulario">
+      <section>
+        <img class="imagem" src="img/produto.svg" alt="" />
+      </section>
+
+      <section class="position">
+        <img src="" alt="" />
+        <h2>cadastro de produtos</h2>
+
+        <form action="" method="get">
+          <article>
+            <label for="codigo">código</label>
+            <input
+              id="codigo"
+              type="text"
+              maxlength="3"
+              placeholder=" BL3"
+            /><br />
+
+            <label for="produto">produto</label>
+            <input
+              id="produto"
+              type="text"
+              minlength="6"
+              placeholder=" Borderlands 3"
+            /><br />
+
+            <label for="categoria">categoria</label>
+            <input
+              id="categoria"
+              type="text"
+              minlength="6"
+              placeholder=" RPG de ação"
+            /><br />
+
+            <label for="plataforma">plataforma</label>
+            <input
+              id="plataforma"
+              type="text"
+              minlength="2"
+              placeholder=" PC"
+            /><br />
+
+            <label for="quantidade">quantidade</label>
+            <input id="quantidade" type="number" min="1" placeholder=" 1" />
+            <br />
+
+            <label for="comprar">onde comprar</label>
+            <input
+              id="comprar"
+              type="url"
+              placeholder=" https://borderlands.com/"
+            />
+          </article>
+
+          <br /><br /><br />
+
+          <button class="button" onclick="salvaContatoLocalStorage()">
+            Cadastrar novo produto
+          </button>
+          <a class="button" href="error.html">Ver produtos cadastrados</a>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Desenvolvido por Andrea Sousa
+        <a href="https://github.com/andreadcsousa" target="_blank">
+          <img src="img/github.png" alt="" />
+        </a>
+        2021
+      </p>
+    </footer>
+
+    <script src="js/produto.js" type="text/javascript"></script>
+  </body>
+</html>
