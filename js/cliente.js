@@ -4,14 +4,16 @@ function salvaContatoLocalStorage() {
   const senha = document.getElementById("senha").value;
   const data = document.getElementById("data").value;
   const telefone = document.getElementById("telefone").value;
-  const sexo = document.getElementById("sexo").value;
+  const feminino = document.getElementById("feminino").value;
+  const masculino = document.getElementById("masculino").value;
   const contato = {
     nome: nome,
     email: email,
     senha: senha,
     data: data,
     telefone: telefone,
-    sexo: sexo,
+    feminino: feminino,
+    masculino: masculino,
   };
 
   return localStorage.setItem("contato", JSON.stringify(contato));
