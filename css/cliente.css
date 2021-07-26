@@ -55,6 +55,8 @@ form .button {
   background: #ffffff;
   color: #377dbe;
   padding: 12px 10px;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 form .button:hover {
